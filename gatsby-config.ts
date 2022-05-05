@@ -1,12 +1,11 @@
-module.exports = {
-  pathPrefix: '/Increasio-gatsby'
-};
 import type { GatsbyConfig } from 'gatsby';
 
 const config: GatsbyConfig = {
   siteMetadata: {
     siteUrl: `https://www.yourdomain.tld`
   },
+  pathPrefix: '/Increasio-gatsby',
+
   plugins: [
     {
       resolve: 'gatsby-source-graphcms',
