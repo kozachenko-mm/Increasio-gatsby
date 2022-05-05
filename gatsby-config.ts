@@ -1,3 +1,6 @@
+module.exports = {
+  pathPrefix: '/Increasio-gatsby'
+};
 import type { GatsbyConfig } from 'gatsby';
 
 const config: GatsbyConfig = {
