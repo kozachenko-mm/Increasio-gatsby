@@ -15,7 +15,7 @@ const Blog = ({ data }: PageProps<BlogData>) => {
         <img
           src={post.image.url}
           alt="blog picture"
-          className="  object-cover h-full w-full "
+          className="object-cover h-full w-full "
         />
         <h2 className="absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-100 text-3xl text-center font-semibold">
           {post.title}

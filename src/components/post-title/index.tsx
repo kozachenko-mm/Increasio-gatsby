@@ -10,11 +10,7 @@ export const PostTitle: React.FC<PostProps> = ({ post }) => {
   return (
     <div className="flex  mb-10 border border-solid p-4 shadow">
       <div className="rounded-full overflow-hidden w-52 h-52 mr-4">
-        <img
-          src={post.image.url}
-          alt="post picture"
-          className="w-full h-full object-cover "
-        />
+        <img src={post.image.url} alt="post picture" className=" h-full object-cover" />
       </div>
       <div className="flex flex-col self-stretch">
         <p className=" text-xs text-gray-600 grow-0 basis-1/2 shrink">

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { graphql } from 'gatsby';
 import { TypePost } from '../types';
-import { Post } from '../components/post.tsx';
+import { PostTitle } from '../components';
 
 interface MainPageData {
   data: {
@@ -15,9 +15,9 @@ const IndexPage: React.FC<MainPageData> = ({ data }) => {
   const posts = data.allGraphCmsPost.nodes;
   return (
     <div className="wrapper">
-      <h1 className="text-3xl text-center mb-12">Posts</h1>
+      <h1 className="text-7xl text-center mb-12">Posts</h1>
       {posts.map((post) => (
-        <Post key={post.id} post={post} />
+        <PostTitle key={post.id} post={post} />
       ))}
     </div>
   );
