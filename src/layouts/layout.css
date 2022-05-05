@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@layer components {
+    .wrapper {
+        @apply max-w-7xl mx-auto p-4
+    }
+
+    .cms-content p,
+    ol {
+        @apply mb-4
+    }
+
+    .cms-content li {
+        @apply list-decimal ml-6
+    }
+
+    .cms-content ol {
+        @apply pl-12
+    }
+
+    .cms-content h2 {
+        @apply text-4xl py-9
+    }
+
+    .cms-content h1 {
+        @apply text-6xl text-center font-cursive
+    }
+
+    .img-block {
+        height: 50vh
+    }
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.truncate>p {
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
