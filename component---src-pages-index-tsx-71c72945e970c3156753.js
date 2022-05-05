@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_minimal_ts=self.webpackChunkgatsby_starter_minimal_ts||[]).push([[691],{4385:function(e,t,a){a.r(t);var s=a(7294),r=a(1743);t.default=function(e){var t=e.data.allGraphCmsPost.nodes;return s.createElement("div",{className:"wrapper"},s.createElement("h1",{className:"text-7xl text-center mb-12"},"Posts"),t.map((function(e){return s.createElement(r.DZ,{key:e.id,post:e})})))}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-71c72945e970c3156753.js.map
